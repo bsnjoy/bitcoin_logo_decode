@@ -14,7 +14,7 @@ You can check it with:
 **addr.txt** - contain all of the addresses from two above transactions  
 **bitcoin.raw** - raw data after base58 decoding of addresses and removing first byte and last 4 digits used for crc.  
 **bitcoin.jpg** - decoded image  
-**c** - main programm which generates bitcoin.jpg and bitcoin.raw from addr.txt  
+**main.py** - main programm which generates bitcoin.jpg and bitcoin.raw from addr.txt  
 **base58.py** - program for base58 encoding from https://github.com/keis/base58/blob/master/base58.py  
 
 Run with python3:  
