@@ -3,7 +3,7 @@ Bitcoin logo bitcoin.jpg stored in two transactions:
 https://btc.com/ceb1a7fb57ef8b75ac59b56dd859d5cb3ab5c31168aa55eb3819cd5ddbd3d806
 https://btc.com/9173744691ac25f3cd94f35d4fc0e0a2b9d1ab17b4fe562acc07660552f95518
 
-logo stored in [yenc format](http://www.yenc.org/yEnc-draft-1.txt) by encoding hex values into addresses
+logo stored in [yenc format](http://www.yenc.org/yEnc-draft-1.txt) by encoding hex values into fake addresses (meaning that we don't know private keys for them and trasactions will be unspent)
 
 for example first address 16c3ddpaDs9ajhDqhzY7oSPrdHvhR227tP after base58 decoding contains value:  
 **=ybegin line=128 siz**
